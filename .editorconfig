@@ -1,0 +1,11 @@
+# 최상위에 있는 파일로 명시
+root = true
+
+# 모든 파일에 적용
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# '.js'과 '.py'로 끝나는 파일에 적용
+[*.{py}]
+charset = utf-8
